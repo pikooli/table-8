@@ -58,7 +58,7 @@ export default function Home() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="mb-2 sm:mb-0 sm:mr-2 p-2 border rounded"
+              className="mb-2 text-black sm:mb-0 sm:mr-2 p-2 border rounded"
               required
             />
             <button type="submit" className="py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-700">
